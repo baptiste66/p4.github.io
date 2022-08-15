@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
+    overflow-x: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -37,6 +37,10 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+.texte{
+    font-size: 15px;
+    
 }
 
 .bloc .container {
@@ -476,7 +480,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -599,7 +603,9 @@ a[data-lightbox]:hover img {
     padding: 0 9px 5px;
     opacity: 0.3;
 }
-
+.footer-logo{ 
+    padding-bottom: 20px;
+}
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
@@ -775,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -818,11 +824,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +854,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -873,8 +879,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +890,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

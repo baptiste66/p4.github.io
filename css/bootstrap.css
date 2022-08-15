@@ -1633,6 +1633,7 @@ p {
 }
 
 @media (min-width:768px) {
+    
     .lead {
         font-size: 21px
     }
@@ -7999,6 +8000,9 @@ button.close {
 @media (max-width:767px) {
     .hidden-xs {
         display: none !important
+    }
+    .img-responsive-bloc3{
+        height: 380px;
     }
 }
 

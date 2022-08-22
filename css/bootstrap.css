@@ -8002,7 +8002,9 @@ button.close {
         display: none !important
     }
     .img-responsive-bloc3{
-        height: 380px;
+        height: 100%;
+        width: 100%;
+        
     }
 }
 

@@ -40,7 +40,10 @@ a:hover {
 }
 .texte{
     font-size: 15px;
-    
+}
+.logo img{
+    width: 20%; 
+    height:100%
 }
 
 .bloc .container {
